@@ -1,0 +1,136 @@
+/*
+  Global styles for the Eppley React site.
+  Defines color palette, typography, and basic layout containers.
+*/
+
+/* CSS variables for easy theme customization */
+:root {
+  --color-primary: #ffd64f; /* original Eppley yellow accent */
+  --color-bg: #f9fafb;     /* light background for iOS-inspired look */
+  --color-text: #1a1a1a;   /* dark text for contrast */
+  --color-muted: #6b7280;  /* muted text color */
+  --color-border: #e5e7eb; /* light border for cards */
+  --header-height: 72px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+/* App wrapper ensures header and footer remain at top and bottom */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content area expands to fill available space between header and footer */
+.content-area {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Basic typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Active link styling for navigation */
+.active-link {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+/* Simple card component */
+.card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  color: #1a1a1a;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #e6bf42;
+}
+
+/* Header and footer */
+.header {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  color: var(--color-muted);
+}
+
+/* Responsive grid for cards */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
