@@ -1,62 +1,78 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from '../components/Card.jsx';
-import hero from '../assets/images/hero.png';
 
 /**
- * Home page component.
- * Displays a hero image, tagline and summaries of the other sections of the site.
+ * Home page component without the large hero image.
  */
 function Home() {
   return (
-    <div>
-      {/* Hero section */}
-      <section style={{ textAlign: 'center', marginBottom: '2rem' }}>
-        <img
-          src={hero}
-          alt="Abstract solar energy illustration"
-          style={{ width: '100%', maxHeight: '360px', objectFit: 'cover', borderRadius: '12px' }}
-        />
-        <h1 style={{ marginTop: '1rem', fontSize: '2rem' }}>Precision Instruments for Solar Energy Research</h1>
-        <p style={{ color: 'var(--color-muted)', marginBottom: '1.5rem' }}>
-          Eppley Laboratory crafts high‑accuracy radiometers and trackers for measuring solar and terrestrial radiation.
+    <article className="home-page">
+      <section className="home-intro">
+        <div className="sun-emblem" aria-hidden="true" />
+        <p className="home-eyebrow">Since 1917</p>
+        <h1>Precision Instruments for Solar and Terrestrial Radiation</h1>
+        <p>
+          The Eppley Laboratory supplies radiometers, automatic trackers, and calibration services to researchers,
+          meteorological networks, and solar power developers across the globe. Each instrument is engineered for
+          accuracy, durability, and traceability to international standards.
         </p>
-        <Link to="/instruments" className="btn">
-          Explore Instruments
-        </Link>
+        <div className="home-actions">
+          <Link to="/instruments" className="btn">
+            Explore Instruments
+          </Link>
+          <Link to="/calibrations" className="btn btn-secondary">
+            Schedule Calibration
+          </Link>
+        </div>
       </section>
-      {/* Overview cards */}
+
       <section className="grid grid-cols-2 grid-cols-3">
         <Card>
           <h3>History</h3>
-          <p>Learn how Captain Marion Eppley’s vision led to over a century of excellence in radiometry.</p>
+          <p>Discover how Captain Marion Eppley's vision built more than a century of radiometry innovation.</p>
           <Link to="/history" className="btn">
             Discover
           </Link>
         </Card>
         <Card>
           <h3>Solar Radiation</h3>
-          <p>Understand the electromagnetic spectrum and the principles behind our instruments.</p>
+          <p>Review the electromagnetic spectrum and the instruments used to measure each band.</p>
           <Link to="/solar-radiation" className="btn">
             Learn More
           </Link>
         </Card>
         <Card>
           <h3>Applications</h3>
-          <p>See how our instruments support meteorology, solar power, calibration and more.</p>
+          <p>See how Eppley sensors support meteorology, solar resource assessment, and material testing.</p>
           <Link to="/applications" className="btn">
             View Applications
           </Link>
         </Card>
         <Card>
           <h3>Calibrations</h3>
-          <p>Need an instrument calibrated? Find out how to send your instrument for precise calibration.</p>
+          <p>Every calibration follows ISO procedures with traceability to WRR, WISG, IPTS, and NIST.</p>
           <Link to="/calibrations" className="btn">
             Get Started
           </Link>
         </Card>
+        <Card>
+          <h3>Contact</h3>
+          <p>
+            Speak with the Eppley team about instruments, orders, or support. We’re available by phone on business
+            days and respond to email inquiries promptly.
+          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <a className="btn" href="tel:+14018471020">
+              Call +1.401.847.1020
+            </a>
+            <a className="btn btn-secondary" href="mailto:info@eppleylab.com">
+              Email Us
+            </a>
+          </div>
+        </Card>
       </section>
-    </div>
+    </article>
   );
 }
 

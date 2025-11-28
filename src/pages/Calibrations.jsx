@@ -1,73 +1,39 @@
-import React, { useState } from 'react';
+﻿import React from 'react';
 
-/**
- * Calibrations and contact page.
- * Provides a simple contact form and contact details.
- */
 function Calibrations() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Placeholder submission handler. In a static site the form cannot send data;
-    // direct visitors to call or email instead.
-    alert('Thank you for your inquiry. Please call us at +1.401.847.1020 or email us for calibration services.');
-  };
-
   return (
-    <div>
-      <h1>Calibrations &amp; Contact</h1>
+    <article className="calibrations-page rich-text">
+      <h1>Calibrations</h1>
       <p>
-        If you need your instrument calibrated or have questions, please contact us using the form below
-        or call us at +1.401.847.1020.
+        All calibrations at Eppley are performed according to internationally accepted techniques with
+        traceability to the proper world standards.
       </p>
-      <form onSubmit={handleSubmit} style={{ maxWidth: '480px' }}>
-        <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="name" style={{ display: 'block', marginBottom: '0.25rem' }}>Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid var(--color-border)' }}
-          />
-        </div>
-        <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="email" style={{ display: 'block', marginBottom: '0.25rem' }}>Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid var(--color-border)' }}
-          />
-        </div>
-        <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="message" style={{ display: 'block', marginBottom: '0.25rem' }}>Message</label>
-          <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            rows={4}
-            required
-            style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid var(--color-border)' }}
-          />
-        </div>
-        <button type="submit" className="btn">
-          Submit
-        </button>
-      </form>
-    </div>
+      <p>
+        Pyrheliometers (sNIP, NIP) are compared on Eppley's research building roof platform following ISO 9059 and
+        Technical Procedure TP04 from The Eppley Laboratory Quality Assurance Manual. Each calibration is traceable
+        to the World Radiation Reference (WRR) through comparisons with Eppley's AHF standard self-calibrating cavity
+        pyrheliometers that participate in the International Pyrheliometric Comparisons (IPC).
+      </p>
+      <p>
+        Pyranometers (SPP, PSP, 8-48) are compared in Eppley's integrating hemisphere per ISO 9847 Section 5.3.1 and
+        Technical Procedure TP01. Results are traceable to the WRR through comparisons with the same AHF cavity
+        standards referenced above.
+      </p>
+      <p>
+        Pyrgeometers (PIR) are compared in Eppley's Blackbody Calibration System under Technical Procedure TP05 and
+        are traceable to the International Practical Temperature Scale (IPTS) as well as the World Infrared Standard
+        Group (WISG).
+      </p>
+      <p>
+        Total Ultraviolet Radiometers (TUVR) are compared on the research roof platform under Technical Procedure
+        TP03 and are traceable to the National Institute of Standards and Technology (NIST).
+      </p>
+      <p>Eppley recommends a minimum calibration cycle of five years and encourages annual calibrations for the highest accuracy.</p>
+      <p>
+        For scheduling or additional details, please contact The Eppley Laboratory at +1.401.847.1020 or via the
+        contact form on the main site.
+      </p>
+    </article>
   );
 }
 

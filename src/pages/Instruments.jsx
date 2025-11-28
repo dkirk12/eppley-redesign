@@ -8,9 +8,15 @@ import instruments from '../data/instruments.js';
  */
 function Instruments() {
   return (
-    <div>
-      <h1>Instruments</h1>
-      <section className="grid grid-cols-2 grid-cols-3">
+    <div className="instruments-page">
+      <header className="page-header">
+        <h1>Instrument Catalog</h1>
+        <p>
+          Explore the complete range of Eppley instruments, including product descriptions,
+          photography, and downloadable specification sheets for each model.
+        </p>
+      </header>
+      <section className="instrument-grid">
         {instruments.map((inst) => (
           <InstrumentCard key={inst.slug} instrument={inst} />
         ))}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 /**
  * Header component providing the site logo and navigation links.
@@ -7,9 +7,9 @@ import { NavLink } from 'react-router-dom';
 function Header() {
   return (
     <header className="header">
-      <div className="logo" style={{ fontWeight: '700', fontSize: '1.5rem' }}>
+      <Link to="/" className="logo-button" aria-label="Return to the homepage">
         EPLAB
-      </div>
+      </Link>
       <nav className="nav">
         <NavLink to="/" end className={({ isActive }) => (isActive ? 'active-link' : '')}>Home</NavLink>
         <NavLink to="/history" className={({ isActive }) => (isActive ? 'active-link' : '')}>History</NavLink>

@@ -1,0 +1,787 @@
+[
+  {
+    "name": "Automatic Solar Tracker",
+    "slug": "automatic-solar-tracker",
+    "shortDescription": "The Eppley Automatic Solar Tracker, Model SMT was developed to allow convenient automatic pointing of normal incidence solar radiation measuring instruments (sNIP , AHF) at the sun. Due to its robust design, users have continued to expect solar trackers to do more and more and the SMT does not disappoint. Eppley offers an optional Shade Disk Kit that allows for shading and ventilation of pyranometers and pyrgeometers. During intercomparisons, it is common to see four or more AHF Cavity Radiometers on a single tracker.",
+    "descriptionHtml": "<h2>Model SMT</h2>\n<p>The Eppley Automatic Solar Tracker, Model SMT was developed to allow convenient automatic pointing of normal incidence solar radiation measuring instruments (sNIP , AHF) at the sun. Due to its robust design, users have continued to expect solar trackers to do more and more and the SMT does not disappoint. Eppley offers an optional Shade Disk Kit that allows for shading and ventilation of pyranometers and pyrgeometers. During intercomparisons, it is common to see four or more AHF Cavity Radiometers on a single tracker.</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/automatic-solar-tracker-EPPLEY160919-SMT.pdf"
+    },
+    "specTables": [
+      {
+        "title": "Environment Conditions",
+        "rows": [
+          {
+            "labelHtml": "Latitude",
+            "valueHtml": "-90 to +90"
+          },
+          {
+            "labelHtml": "",
+            "valueHtml": "<em>Please notify us if used in the Tropic Zone</em>"
+          },
+          {
+            "labelHtml": "Operating Temperature",
+            "valueHtml": "-50ºto +80ºC"
+          },
+          {
+            "labelHtml": "Operating Humidity",
+            "valueHtml": "0-100% RH"
+          },
+          {
+            "labelHtml": "Operating Wind Speed",
+            "valueHtml": "0-70 mph"
+          }
+        ]
+      },
+      {
+        "title": "Physical Specifications",
+        "rows": [
+          {
+            "labelHtml": "Tracker Weight",
+            "valueHtml": "70 lb"
+          },
+          {
+            "labelHtml": "Tracker Dimension",
+            "valueHtml": "16″ height by 18″ diameter"
+          },
+          {
+            "labelHtml": "Mounting",
+            "valueHtml": "Tripod stand included"
+          }
+        ]
+      },
+      {
+        "title": "Performance",
+        "rows": [
+          {
+            "labelHtml": "Input Power",
+            "valueHtml": "110 VAC or 220 VAC <em>please specify</em>"
+          },
+          {
+            "labelHtml": "Power Consumption",
+            "valueHtml": "100 W"
+          },
+          {
+            "labelHtml": "Pointing Precision",
+            "valueHtml": "0.01875º per step"
+          },
+          {
+            "labelHtml": "Pointing Accuracy",
+            "valueHtml": "<1º monthly"
+          },
+          {
+            "labelHtml": "Software/Hardware",
+            "valueHtml": "Included in the price."
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/instruments/automatic-solar-tracker-gallery-1.jpg",
+        "caption": "Model SMT modified by user to “shade cal” 4 pyranometers"
+      },
+      {
+        "image": "/instruments/automatic-solar-tracker-gallery-2.jpg",
+        "caption": "SMT in typical BSRN mode with SDK, PIR, SPP and sNIP"
+      },
+      {
+        "image": "/instruments/automatic-solar-tracker-gallery-3.jpg",
+        "caption": "25 year old SMT with four AHF Cavity Radiometers"
+      }
+    ],
+    "heroImage": {
+      "image": "/instruments/automatic-solar-tracker-hero.jpg",
+      "alt": "Model SMT modified by user to “shade cal” 4 pyranometers"
+    }
+  },
+  {
+    "name": "Black & White Pyranometer",
+    "slug": "black-white-pyranometer",
+    "shortDescription": "A pyranometer is used to measure the energy from the sun. When leveled in the horizontal plane, this measurement is called the Global Shortwave Irradiance (GLOBAL) and when positioned in a plane of a PV Array, it is called the Total Irradiance in the plane of array (TPA) . Inverted, a pyranometer is used to measure the Reflected or Albedo Irradiance (ALBEDO) . A pyranometer can also be shaded from the direct beam of the sun to measure the Diffuse Shortwave Irradiance (DIFFUSE) .",
+    "descriptionHtml": "<h1>“The Diffuse Pyranometer”</h1>\n<h2>Model 8-48</h2>\n<p>A pyranometer is used to measure the energy from the sun. When leveled in the horizontal plane, this measurement is called the <a href=\"https://web.archive.org/web/20250512205658/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#global\">Global Shortwave Irradiance (GLOBAL)</a> and when positioned in a plane of a PV Array, it is called the <a href=\"https://web.archive.org/web/20250512205658/http://www.eppleylab.com/applications#tpa\">Total Irradiance in the plane of array (TPA)</a>. Inverted, a pyranometer is used to measure the <a href=\"https://web.archive.org/web/20250512205658/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#albedo\">Reflected or Albedo Irradiance (ALBEDO)</a>. A pyranometer can also be shaded from the direct beam of the sun to measure the <a href=\"https://web.archive.org/web/20250512205658/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#diffuse\">Diffuse Shortwave Irradiance (DIFFUSE)</a>.</p>\n<h2>Uses:</h2>\n<p>The Black & White Pyranometer, Model 8-48 is most often used in the highest quality networks as a Diffuse (shaded) instrument. While “all black” pyranometers such as the <a href=\"https://web.archive.org/web/20250512205658/http://www.eppleylab.com/instrument-list/standard-precision-pyranometer/\">SPP</a>, <a href=\"https://web.archive.org/web/20250512205658/http://www.eppleylab.com/instrument-list/global-precision-pyranometer/\">GPP</a> (and PSP) are preferred for Global, Reflected or TPA measurements due to their better cosine response and time response, these do not significantly matter to a shaded pyranometer and the as Black & White has no offset that naturally occur in the all-black pyranometers, it makes it more suitable for Diffuse measurements.</p>\n<p>*Uncertainty:<br/>\nRecently, there has been much discussion on “uncertainty” and how it pertains to solar measurements. The RSS of the 9060 Secondary Standard specifications results in an uncertainty of approximately 3.5%. The typical uncertainty of Eppley’s 8-48 factory calibrations are less than 2%. The stated uncertainty of the WRR is 0.4%. Evidence from comparisons of 8-48 measurements to component sum derived values (using an AHF and 8-48) show the 8-48 is capable of hourly averages better than 5% and daily averages better than 3%. In terms of typical diffuse value, this would equate to less than 5 Wm-2.</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/black-white-pyranometer-EPPLEY160919-8-48-Diffuse.pdf"
+    },
+    "specTables": [
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Application",
+            "valueHtml": "Network Measurements (Diffuse)"
+          },
+          {
+            "labelHtml": "Traceability",
+            "valueHtml": "World Radiation Reference (WRR)"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Spectral Range",
+            "valueHtml": "295-2800 nm"
+          },
+          {
+            "labelHtml": "Output",
+            "valueHtml": "0-10 mV analog"
+          },
+          {
+            "labelHtml": "Sensitivity",
+            "valueHtml": "approx. 8 μV / Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Impedance",
+            "valueHtml": "approx. 350 Ω"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "95% Response Time",
+            "valueHtml": "30 s"
+          },
+          {
+            "labelHtml": "Zero Offset a)",
+            "valueHtml": "1 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Zero Offset b)",
+            "valueHtml": "2 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Non-Stability",
+            "valueHtml": "1%"
+          },
+          {
+            "labelHtml": "Non-Linearity",
+            "valueHtml": "1%"
+          },
+          {
+            "labelHtml": "Directional Response",
+            "valueHtml": "30 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Spectral Selectivity",
+            "valueHtml": "2%"
+          },
+          {
+            "labelHtml": "Operating Temperature",
+            "valueHtml": "-50°C to +80°C"
+          },
+          {
+            "labelHtml": "Temperature Response",
+            "valueHtml": "1.5% (-20°C to +40°C)"
+          },
+          {
+            "labelHtml": "Tilt Response",
+            "valueHtml": "3%"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Calibration Uncertainty*",
+            "valueHtml": "< 2%"
+          },
+          {
+            "labelHtml": "Measurement Uncertainty*",
+            "valueHtml": ""
+          },
+          {
+            "labelHtml": "Single Point",
+            "valueHtml": "< 5 Wm<sup>-2</sup>(Diffuse)"
+          },
+          {
+            "labelHtml": "Single Point",
+            "valueHtml": "< 30 Wm<sup>-2</sup>(Global)"
+          },
+          {
+            "labelHtml": "Hourly Average",
+            "valueHtml": "approx. 3-5%"
+          },
+          {
+            "labelHtml": "Daily Average",
+            "valueHtml": "approx. 3%"
+          }
+        ]
+      }
+    ],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/black-white-pyranometer-hero.jpg",
+      "alt": "Model 8-48 - Black & White Pyranometer"
+    }
+  },
+  {
+    "name": "Global Precision Pyranometer",
+    "slug": "global-precision-pyranometer",
+    "shortDescription": "A pyranometer is used to measure the energy from the sun. When leveled in the horizontal plane, this is called the Global Shortwave Irradiance (GLOBAL) and when positioned in a plane of a PV Array, it is called the Total Irradiance in the plane of array (TPA) . Inverted, a pyranometer is used to measure the Reflected or Albedo Irradiance (ALBEDO) . A pyranometer can also be shaded from the direct beam of the sun to measure the Diffuse Shortwave Irradiance (DIFFUSE) .",
+    "descriptionHtml": "<p>A pyranometer is used to measure the energy from the sun. When leveled in the horizontal plane, this is called the <a href=\"https://web.archive.org/web/20250427105055/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#global\">Global Shortwave Irradiance (GLOBAL)</a> and when positioned in a plane of a PV Array, it is called the <a href=\"https://web.archive.org/web/20250427105055/http://www.eppleylab.com/applications#tpa\">Total Irradiance in the plane of array (TPA)</a>. Inverted, a pyranometer is used to measure the <a href=\"https://web.archive.org/web/20250427105055/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#albedo\">Reflected or Albedo Irradiance (ALBEDO)</a>. A pyranometer can also be shaded from the direct beam of the sun to measure the <a href=\"https://web.archive.org/web/20250427105055/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#diffuse\">Diffuse Shortwave Irradiance (DIFFUSE)</a>.</p>\n<h2>Uses:</h2>\n<p>In 2013, Eppley introduced the ISO 9060 Secondary Standard SPP Pyranometer to replace the venerable PSP. For 2014, the design team was tasked with making a pyranometer targeted for the PV/CSP Industry that was “as good or better at a lower cost” and the GPP was introduced in 2015.</p>\n<p>*Uncertainty:<br/>\nRecently, there has been much discussion on “uncertainty” and how it pertains to solar measurements. The RSS of the 9060 Secondary Standard specifications results in an uncertainty of approximately 3.5%. The typical uncertainty of Eppley’s factory calibrations are less than 1%. The stated uncertainty of the WRR is 0.4%. Evidence from comparisons of GPP measurements to component sum derived values (using an AHF and 8-48) show the GPP is capable of hourly averages better than 2% and daily averages better than 1%.</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/global-precision-pyranometer-EPPLEY160919-GPP.pdf"
+    },
+    "specTables": [
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Application",
+            "valueHtml": "PV/CSP Performance Testing"
+          },
+          {
+            "labelHtml": "Classification",
+            "valueHtml": "Secondary Standard / High Quality"
+          },
+          {
+            "labelHtml": "Traceability",
+            "valueHtml": "World Radiation Reference (WRR)"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Spectral Range",
+            "valueHtml": "295-2800 nm"
+          },
+          {
+            "labelHtml": "Output",
+            "valueHtml": "0-10 mV analog"
+          },
+          {
+            "labelHtml": "Sensitivity",
+            "valueHtml": "approx. 8 μV / Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Impedance",
+            "valueHtml": "approx. 700 Ω"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "95% Response Time",
+            "valueHtml": "5 s"
+          },
+          {
+            "labelHtml": "Zero Offset a)",
+            "valueHtml": "5 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Zero Offset b)",
+            "valueHtml": "2 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Non-Stability",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Non-Linearity",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Directional Response",
+            "valueHtml": "10 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Spectral Selectivity",
+            "valueHtml": "2%"
+          },
+          {
+            "labelHtml": "Operating Temperature",
+            "valueHtml": "-50°C to +80°C"
+          },
+          {
+            "labelHtml": "Temperature Response",
+            "valueHtml": "0.5% (-30°C to +50°C)"
+          },
+          {
+            "labelHtml": "Tilt Response",
+            "valueHtml": "0.5%"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Calibration Uncertainty*",
+            "valueHtml": "< 1%"
+          },
+          {
+            "labelHtml": "Measurement Uncertainty*",
+            "valueHtml": ""
+          },
+          {
+            "labelHtml": "Single Point",
+            "valueHtml": "< 10 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Hourly Average",
+            "valueHtml": "approx. 2%"
+          },
+          {
+            "labelHtml": "Daily Average",
+            "valueHtml": "approx. 1%"
+          }
+        ]
+      }
+    ],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/global-precision-pyranometer-hero.jpg",
+      "alt": "Global Precision Pyranometer"
+    }
+  },
+  {
+    "name": "Normal Incidence Pyrheliometer",
+    "slug": "normal-incidence-pyrheliometer",
+    "shortDescription": "A pyrheliometer mounted on a solar tracker is used to measure the Direct Beam Solar Irradiance (DNI) from the sun. Historically, the preferred field of view for Pyrheliometers was based on a 10:1 ratio which equated to approximately 5.7°. Due in part to the commercialization of the Eppley AHF Cavity Radiometer as a Primary Standard and advances in accuracy of Automatic Solar Trackers (such as the Eppley SMT Tracker), the preferred FOV for pyrheliometers is now 5º. The new Eppley sNIP has a 5° FOV. In fact, it has the exact same geometric dimensions as used in the AHF. Additionally, internal changes were employed to increase the response time and reduce conduction and convection issues and a thermistor is included for those who wish to measure the instrument temperature.",
+    "descriptionHtml": "<h2>Model sNIP</h2>\n<p>A pyrheliometer mounted on a solar tracker is used to measure the <a href=\"https://web.archive.org/web/20250620193931/http://www.eppleylab.com/introduction-to-solar-radiation-measurements/\">Direct Beam Solar Irradiance (DNI)</a> from the sun. Historically, the preferred field of view for Pyrheliometers was based on a 10:1 ratio which equated to approximately 5.7°. Due in part to the commercialization of the Eppley AHF Cavity Radiometer as a Primary Standard and advances in accuracy of Automatic Solar Trackers (such as the Eppley SMT Tracker), the preferred FOV for pyrheliometers is now 5º. The new Eppley sNIP has a 5° FOV. In fact, it has the exact same geometric dimensions as used in the AHF. Additionally, internal changes were employed to increase the response time and reduce conduction and convection issues and a thermistor is included for those who wish to measure the instrument temperature.</p>\n<p>As a result, the new Normal Incidence Pyrheliometer, Model sNIP meets the performance specifications of an ISO Secondary Standard* and a WMO High Quality Pyrheliometer.</p>\n<p>*To officially be considered a Secondary Standard, the pyrheliometer in question must be calibrated with WRR traceability through a Primary Standard Pyrheliometer such as the Eppley AHF Cavity Radiometer. EPLAB Calibrations are typically performed against a Secondary Standard Pyrheliometer. At the customer’s request and for an additional fee, this calibration can be performed against our WRR traceable AHF Cavity Radiometer. Please contact Eppley for additional information.</p>\n<p>** There has been much discussion on “uncertainty” and how it pertains to solar measurements. The RSS of the 9060 specifications results in an uncertainty of approximately 1.5%. The typical uncertainty of Eppley’s factory calibrations are less than 1%. The stated uncertainty of the WRR is 0.4%. Evidence from direct comparisons of sNIP to AHF show the sNIP is capable of hourly averages better than 2% and daily averages better than 1% (assuming proper tracking and clean windows).</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/normal-incidence-pyrheliometer-EPPLEY160919-sNIP.pdf"
+    },
+    "specTables": [
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Application",
+            "valueHtml": "Working Standard"
+          },
+          {
+            "labelHtml": "",
+            "valueHtml": "or Network Measurements"
+          },
+          {
+            "labelHtml": "Classification",
+            "valueHtml": "Secondary Standard*"
+          },
+          {
+            "labelHtml": "Traceability",
+            "valueHtml": "WRR through Primary"
+          },
+          {
+            "labelHtml": "",
+            "valueHtml": "or Secondary"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Spectral Range",
+            "valueHtml": "250-3000 nm"
+          },
+          {
+            "labelHtml": "Field of View",
+            "valueHtml": "5°"
+          },
+          {
+            "labelHtml": "Output",
+            "valueHtml": "0-10 mV"
+          },
+          {
+            "labelHtml": "Sensitivity",
+            "valueHtml": "approx. 8 μV / Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Impedance",
+            "valueHtml": "approx. 200 Ω"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "95% Response Time",
+            "valueHtml": "5 s"
+          },
+          {
+            "labelHtml": "Zero Offset",
+            "valueHtml": "1 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Non-Stability",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Non-Linearity",
+            "valueHtml": "0.2%"
+          },
+          {
+            "labelHtml": "Spectral Selectivity",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Temperature Response",
+            "valueHtml": "0.5%"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Calibration Uncertainty**",
+            "valueHtml": "< 1%"
+          },
+          {
+            "labelHtml": "Measurement Uncertainty**",
+            "valueHtml": ""
+          },
+          {
+            "labelHtml": "Single Point",
+            "valueHtml": "< 5 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Hourly Average",
+            "valueHtml": "approx. 1%"
+          },
+          {
+            "labelHtml": "Daily Average",
+            "valueHtml": "approx. 1%"
+          }
+        ]
+      }
+    ],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/normal-incidence-pyrheliometer-hero.jpg",
+      "alt": "Model sNIP - Normal Incidence Pyrheliometer"
+    }
+  },
+  {
+    "name": "Precision Infared Radiometer",
+    "slug": "precision-infared-radiometer",
+    "shortDescription": "The Precision Infrared Radiometer, Pyrgeometer, is intended for unidirectional operation in the measurement, separately, of downwelling or upwelling longwave irradiance. Unlike instruments that measure the shortwave (short) irradiance, there is no official ISO/WMO classification of pyrgeometers which are designed to measure the longwave (infrared) irradiance from the sky. The PIR comprises the same wirewound thermopile detector and temperature compensation circuitry as found in the SPP pyranometers . This thermopile detector is used to measure the “net radiation” of the PIR and a case thermistor (YSI 44031) is used to determine the outgoing radiation from the case. A dome thermistor is also included if one wishes to measure the dome temperature as compared to the case temperature to make any “corrections” to the final result.",
+    "descriptionHtml": "<h2>Model PIR</h2>\n<p>The Precision Infrared Radiometer, Pyrgeometer, is intended for unidirectional operation in the measurement, separately, of downwelling or upwelling longwave irradiance. Unlike instruments that measure the shortwave (short) irradiance, there is no official ISO/WMO classification of pyrgeometers which are designed to measure the longwave (infrared) irradiance from the sky. The PIR comprises the same wirewound thermopile detector and temperature compensation circuitry as found in the <a href=\"https://web.archive.org/web/20250405135119/http://www.eppleylab.com/instrument-list/standard-precision-pyranometer/\">SPP pyranometers</a>. This thermopile detector is used to measure the “net radiation” of the PIR and a case thermistor (YSI 44031) is used to determine the outgoing radiation from the case. A dome thermistor is also included if one wishes to measure the dome temperature as compared to the case temperature to make any “corrections” to the final result.</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/precision-infared-radiometer-EPPLEY160919-PIR.pdf"
+    },
+    "specTables": [
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Field of View",
+            "valueHtml": "180° (2π sr)"
+          },
+          {
+            "labelHtml": "Spectral Range",
+            "valueHtml": "approx, 4-50 microns"
+          },
+          {
+            "labelHtml": "Sensitivity",
+            "valueHtml": "approx. 3 μV / Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "95% Response Time",
+            "valueHtml": "5 Seconds"
+          },
+          {
+            "labelHtml": "Temperature Response",
+            "valueHtml": "0.5% (-30°C to +50°C)"
+          },
+          {
+            "labelHtml": "Linearity",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Stability",
+            "valueHtml": "1% per year"
+          },
+          {
+            "labelHtml": "Zero Offset",
+            "valueHtml": "2 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Tilt Response",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Uncertainty",
+            "valueHtml": "5 Wm<sup>-2</sup>"
+          },
+          {
+            "labelHtml": "Operating Temperature",
+            "valueHtml": ""
+          },
+          {
+            "labelHtml": "Range",
+            "valueHtml": "-50° to +80°C"
+          },
+          {
+            "labelHtml": "Operating Humidity",
+            "valueHtml": ""
+          },
+          {
+            "labelHtml": "Range",
+            "valueHtml": "0 to 100% RH"
+          },
+          {
+            "labelHtml": "Traceability",
+            "valueHtml": "World Infrared Standard Group (WISG) International Practical Temperature Scale (IPTS)"
+          },
+          {
+            "labelHtml": "Application",
+            "valueHtml": "Working Standard or Network Mesurements"
+          }
+        ]
+      }
+    ],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/precision-infared-radiometer-hero.jpg",
+      "alt": "Precision Infrared Radiometer"
+    }
+  },
+  {
+    "name": "Standard Precision Pyranometer",
+    "slug": "standard-precision-pyranometer",
+    "shortDescription": "A pyranometer is used to measure the energy from the sun. When leveled in the horizontal plane, this is called the Global Shortwave Irradiance (GLOBAL) and when positioned in a plane of a PV Array, it is called the Total Irradiance in the plane of array (TPA) . Inverted, a pyranometer is used to measure the Reflected or Albedo Irradiance (ALBEDO) . A pyranometer can also be shaded from the direct beam of the sun to measure the Diffuse Shortwave Irradiance (DIFFUSE) .",
+    "descriptionHtml": "<h2>Model SPP</h2>\n<p>A pyranometer is used to measure the energy from the sun. When leveled in the horizontal plane, this is called the <a href=\"https://web.archive.org/web/20250427102330/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#global\">Global Shortwave Irradiance (GLOBAL)</a> and when positioned in a plane of a PV Array, it is called the <a href=\"https://web.archive.org/web/20250427102330/http://www.eppleylab.com/applications#tpa\">Total Irradiance in the plane of array (TPA)</a>. Inverted, a pyranometer is used to measure the <a href=\"https://web.archive.org/web/20250427102330/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#albedo\">Reflected or Albedo Irradiance (ALBEDO)</a>. A pyranometer can also be shaded from the direct beam of the sun to measure the <a href=\"https://web.archive.org/web/20250427102330/http://www.eppleylab.com/introduction-to-solar-radiation-measurements#diffuse\">Diffuse Shortwave Irradiance (DIFFUSE)</a>.</p>\n<h2>Uses:</h2>\n<p>Based on the design of the distinguished PSP Pyranometer, the new SPP has faster response time, a reduced nighttime thermal offset, an improved cosine response and a better temperature dependence. This makes the SPP the ideal instrument for high quality network measurements and as a transfer standard for calibration of other pyranometers. A thermistor is included for measuring instrument temperature.</p>\n<p>*Uncertainty:<br/>\nRecently, there has been much discussion on “uncertainty” and how it pertains to solar measurements. The RSS of the 9060 Secondary Standard specifications results in an uncertainty of approximately 3.5%. The typical uncertainty of Eppley’s factory calibrations are less than 1%. The stated uncertainty of the WRR is 0.4%. Evidence from comparisons of SPP measurements to component sum derived values (using an AHF and 8-48) show the SPP is capable of hourly averages better than 2% and daily averages better than 1%.</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/standard-precision-pyranometer-EPPLEY160919-SPP.pdf"
+    },
+    "specTables": [
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Application",
+            "valueHtml": "Working Standard or Network Measurements"
+          },
+          {
+            "labelHtml": "Classification",
+            "valueHtml": "Secondary Standard / High Quality"
+          },
+          {
+            "labelHtml": "Traceability",
+            "valueHtml": "World Radiation Reference (WRR)"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Spectral Range",
+            "valueHtml": "295-2800 nm"
+          },
+          {
+            "labelHtml": "Output",
+            "valueHtml": "0-10 mV analog"
+          },
+          {
+            "labelHtml": "Sensitivity",
+            "valueHtml": "approx. 8 μV / Wm-2"
+          },
+          {
+            "labelHtml": "Impedance",
+            "valueHtml": "approx. 700 Ω"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "95% Response Time",
+            "valueHtml": "5 s"
+          },
+          {
+            "labelHtml": "Zero Offset a)",
+            "valueHtml": "5 Wm-2"
+          },
+          {
+            "labelHtml": "Zero Offset b)",
+            "valueHtml": "2 Wm-2"
+          },
+          {
+            "labelHtml": "Non-Stability",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Non-Linearity",
+            "valueHtml": "0.5%"
+          },
+          {
+            "labelHtml": "Directional Response",
+            "valueHtml": "10 Wm-2"
+          },
+          {
+            "labelHtml": "Spectral Selectivity",
+            "valueHtml": "2%"
+          },
+          {
+            "labelHtml": "Operating Temperature",
+            "valueHtml": "-50°C to +80°C"
+          },
+          {
+            "labelHtml": "Temperature Response",
+            "valueHtml": "0.5% from -30°C to +50°C"
+          },
+          {
+            "labelHtml": "Tilt Response",
+            "valueHtml": "0.5%"
+          }
+        ]
+      },
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Calibration Uncertainty*",
+            "valueHtml": "< 1%"
+          },
+          {
+            "labelHtml": "Measurement Uncertainty*",
+            "valueHtml": ""
+          },
+          {
+            "labelHtml": "Single Point",
+            "valueHtml": "< 10 Wm-2"
+          },
+          {
+            "labelHtml": "Hourly Average",
+            "valueHtml": "approx. 2%"
+          },
+          {
+            "labelHtml": "Daily Average",
+            "valueHtml": "approx. 1%"
+          }
+        ]
+      }
+    ],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/standard-precision-pyranometer-hero.jpg",
+      "alt": "Model SPP - Standard Precision Pyranometer"
+    }
+  },
+  {
+    "name": "Shade Disk Kit",
+    "slug": "shade-disk-kit",
+    "shortDescription": "Designed to mount onto the Eppley SMT Tracker, this assembly allows for the ventilation and shading of up to two Pyranometers or Pyrgeometers. The instruments are mounted in Ventilation units built into the mounting plate above and to the rear of the tracker housing to provide a clear field of view. The shading disks (options for one or two) cast a proper shadow on the instruments as the tracker follows the sun by using the elevation drive of the tracker to perform the shading disk tracking. The standard 10 to 1 ratio is maintained by using the 6 cm diameter disks at a distance of 60 cm from the receivers of the global instruments.",
+    "descriptionHtml": "<h2>Model SDK</h2>\n<p>Designed to mount onto the Eppley SMT Tracker, this assembly allows for the ventilation and shading of up to two Pyranometers or Pyrgeometers.<br/>\nThe instruments are mounted in Ventilation units built into the mounting plate above and to the rear of the tracker housing to provide a clear field of view. The shading disks (options for one or two) cast a proper shadow on the instruments as the tracker follows the sun by using the elevation drive of the tracker to perform the shading disk tracking. The standard 10 to 1 ratio is maintained by using the 6 cm diameter disks at a distance of 60 cm from the receivers of the global instruments.</p>\n<p>A typical layout for the Meteorologist would be to shade an <a href=\"https://web.archive.org/web/20250512210107/http://www.eppleylab.com/instrument-list/black-white-pyranometer/\">8-48 Pyranometer (Diffuse)</a> and a <a href=\"https://web.archive.org/web/20250512210107/http://www.eppleylab.com/instrument-list/precision-infared-radiometer/\">PIR (incoming longwave)</a> while a PV Performance Station would opt for a single shade arm for an <a href=\"https://web.archive.org/web/20250512210107/http://www.eppleylab.com/instrument-list/black-white-pyranometer/\">8-48 (Diffuse)</a> and use the second position for an <a href=\"https://web.archive.org/web/20250512210107/http://www.eppleylab.com/instrument-list/standard-precision-pyranometer/\">SPP (Global)</a>.</p>\n<p><strong>We can also supply three position mounting plates on request.</strong></p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/shade-disk-kit-EPPLEY160919-SDK.pdf"
+    },
+    "specTables": [],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/shade-disk-kit-hero.jpg",
+      "alt": "Model SDK - Shade Disk Kit"
+    }
+  },
+  {
+    "name": "Total Ultraviolet Radiometer",
+    "slug": "total-ultraviolet-radiometer",
+    "shortDescription": "The Total Ultraviolet Radiometer is a rugged, relatively simple detector for the measurement of solar UV radiation. Ease of operation combined with performance accuracy comparable with pyranometers intended for the recording of the total short-wave radiation (0.295 to 0.385 µm) make this instrument an attractive instrument for UV measurement.",
+    "descriptionHtml": "<h2>Model TUVR</h2>\n<p>The Total Ultraviolet Radiometer is a rugged, relatively simple detector for the measurement of solar UV radiation. Ease of operation combined with performance accuracy comparable with pyranometers intended for the recording of the total short-wave radiation (0.295 to 0.385 µm) make this instrument an attractive instrument for UV measurement.</p>\n<p>This instrument utilizes a hermetically sealed selenium barrier-layer cell which is protected by a quartz window. It is operated at low light levels and under conditions of minimum electrical current drain, in order to ensure a high degree of performance stability over lengthy periods of exposure. A specially designed teflon diffuser not only reduces the radiant flux to acceptable levels but also provides close adherence to the Lambert cosine law. An encapsulated narrow bandpass (interference) filter limits the spectral response of the photocell to the wavelength interval 0.295 to 0.385 µm, with negligible secondary transmission.</p>\n<p>The unit is of brass construction and includes adjustable leveling screws and a circular spirit level</p>\n<p>A calibration certificate traceable to the National Institute of Standards and Technology (NIST) is included.</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/total-ultraviolet-radiometer-EPPLEY160919-TUVR.pdf"
+    },
+    "specTables": [
+      {
+        "title": null,
+        "rows": [
+          {
+            "labelHtml": "Sensitivity:",
+            "valueHtml": "approx. 150 μV / Wm-2"
+          },
+          {
+            "labelHtml": "Impedance:",
+            "valueHtml": "approx. 1500 Ohms."
+          },
+          {
+            "labelHtml": "Temperature",
+            "valueHtml": "± 0.3% / °C over ambient"
+          },
+          {
+            "labelHtml": "Dependence:",
+            "valueHtml": "temperature range -40°C to +40°C"
+          },
+          {
+            "labelHtml": "Linearity:",
+            "valueHtml": "± 2% from 0 to 70 Wm-2"
+          },
+          {
+            "labelHtml": "Response Time:",
+            "valueHtml": "milliseconds"
+          },
+          {
+            "labelHtml": "Cosine:",
+            "valueHtml": "± 3.5% from normalization 0-70° zenith angle"
+          },
+          {
+            "labelHtml": "Mechanical",
+            "valueHtml": "Tested up to 20 g’s"
+          },
+          {
+            "labelHtml": "Vibration:",
+            "valueHtml": "without damage."
+          },
+          {
+            "labelHtml": "Calibration:",
+            "valueHtml": "Reference Eppley Secondary Standard group of UV Radiometers"
+          },
+          {
+            "labelHtml": "Size:",
+            "valueHtml": "5.75″ diameter, 6.75″ height."
+          },
+          {
+            "labelHtml": "Weight:",
+            "valueHtml": "6 pounds."
+          },
+          {
+            "labelHtml": "Orientation:",
+            "valueHtml": "Performance is not affected by orientation or tilt."
+          }
+        ]
+      }
+    ],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/total-ultraviolet-radiometer-hero.jpg",
+      "alt": "Total Ultraviolet Radiometer"
+    }
+  },
+  {
+    "name": "Ventilator",
+    "slug": "ventilator",
+    "shortDescription": "Snow, rain, dew, dirt, dust, salt, etc. can buildup on hemispheres of the Pyranometers and Pyrgeometers and can affect the measurements. Therefore, instruments that cannot be inspected and cleaned regularly may wish to include a Ventilator to blow a steady stream of air over the hemispheres to reduce this buildup. This is particularly true in remote stations where maintenance is rarely performed. In fact, researchers in Arctic/Antarctic regions have even implemented heaters to help reduce ice and grime buildup. A “muffin” fan in the base continuously blows air over both the instrument case and the instrument dome. The clear plastic upper housing allows the instrument, connector, and desiccator window to be easily viewed. A white enameled guard disk, leveling screws and hold down holes are provided. The 8 inch diameter, 5.75 inch high ventilator weighs 5.5 pounds.",
+    "descriptionHtml": "<h2>Model VEN</h2>\n<p>Snow, rain, dew, dirt, dust, salt, etc. can buildup on hemispheres of the Pyranometers and Pyrgeometers and can affect the measurements. Therefore, instruments that cannot be inspected and cleaned regularly may wish to include a Ventilator to blow a steady stream of air over the hemispheres to reduce this buildup. This is particularly true in remote stations where maintenance is rarely performed. In fact, researchers in Arctic/Antarctic regions have even implemented heaters to help reduce ice and grime buildup.<br/>\nA “muffin” fan in the base continuously blows air over both the instrument case and the instrument dome. The clear plastic upper housing allows the instrument, connector, and desiccator window to be easily viewed. A white enameled guard disk, leveling screws and hold down holes are provided. The 8 inch diameter, 5.75 inch high ventilator weighs 5.5 pounds.</p>\n<p>The VEN can be supplied with AC (110 or 220 volts) or DC (12 or 24 volts) fans. Recent research has shown that the VEN will increase the nighttime offset of the Pyranometers as the instrument case will be warmed by the fan. Many researchers have decided to use a 12 VDC (high flow) fan to reduce this offset.</p>",
+    "datasheet": {
+      "label": "CLICK HERE to download Specifications [PDF]",
+      "file": "/datasheets/ventilator-EPPLEY160919-VEN.pdf"
+    },
+    "specTables": [],
+    "gallery": [],
+    "heroImage": {
+      "image": "/instruments/ventilator-hero.jpg",
+      "alt": "Model VEN - Ventilator"
+    }
+  }
+]

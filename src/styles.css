@@ -59,7 +59,6 @@ a:hover {
 /* Active link styling for navigation */
 .active-link {
   font-weight: 600;
-  color: var(--color-primary);
 }
 
 /* Simple card component */
@@ -89,6 +88,13 @@ a:hover {
   background-color: #e6bf42;
 }
 
+.loading-state {
+  padding: 2rem 0;
+  text-align: center;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
 /* Header and footer */
 .header {
   height: var(--header-height);
@@ -104,9 +110,41 @@ a:hover {
   z-index: 100;
 }
 
+.logo-button {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 0.25rem 0.6rem;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+}
+
+.logo-button:hover {
+  background-color: var(--color-border);
+}
+
 .nav {
   display: flex;
   gap: 1rem;
+}
+
+.header .nav a {
+  color: var(--color-text);
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.header .nav a:hover {
+  color: var(--color-text);
+  border-bottom-color: var(--color-border);
+}
+
+.header .nav a.active-link {
+  color: var(--color-text);
+  border-bottom-color: var(--color-primary);
 }
 
 .footer {
@@ -123,6 +161,232 @@ a:hover {
   gap: 1.5rem;
 }
 
+.home-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.sun-emblem {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #fff5c3 0%, #ffd64f 45%, #f0a818 75%, #d97c0b 100%);
+  position: relative;
+  animation: pulse 6s infinite ease-in-out;
+}
+
+.sun-emblem::after {
+  content: '';
+  position: absolute;
+  inset: -18px;
+  border-radius: 50%;
+  border: 2px dashed rgba(255, 214, 79, 0.5);
+  animation: spin 20s linear infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home-intro {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
+}
+
+.home-eyebrow {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: var(--color-muted);
+  margin-bottom: 0.5rem;
+}
+
+.home-intro h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.home-intro p {
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.btn.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.btn.btn-secondary:hover {
+  background-color: var(--color-border);
+}
+
+.history-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.history-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.history-copy {
+  flex: 2 1 280px;
+}
+
+.history-figure {
+  flex: 1 1 220px;
+  text-align: center;
+}
+
+.history-figure img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.history-figure p {
+  margin-top: 0.5rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 2px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+
+.timeline-marker {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 3px rgba(255, 214, 79, 0.25);
+  position: absolute;
+  left: -2.9rem;
+  top: 0.4rem;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.timeline-content p {
+  margin: 0.35rem 0 0;
+  color: var(--color-text);
+}
+
+.rich-text p {
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.rich-text ul {
+  color: var(--color-text);
+  padding-left: 1.25rem;
+}
+
+.rich-text h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.spectrum-section {
+  margin-top: 2.5rem;
+}
+
+.spectrum-display {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.spectrum-bar {
+  height: 80px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    #3a54ff 0%,
+    #1b8eff 10%,
+    #09d7ff 20%,
+    #00ffea 30%,
+    #4eff00 40%,
+    #d7ff00 50%,
+    #ffbf00 60%,
+    #ff7b00 70%,
+    #ff006c 80%,
+    #7b0039 100%
+  );
+}
+
+.spectrum-labels {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.spectrum-label {
+  flex: 1;
+  text-align: center;
+}
+
+.spectrum-label span {
+  display: block;
+  color: var(--color-muted);
+  margin-top: 0.25rem;
+}
+
 @media (min-width: 640px) {
   .grid-cols-2 {
     grid-template-columns: repeat(2, 1fr);
@@ -134,3 +398,260 @@ a:hover {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+/* Instruments listing */
+.instruments-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header p {
+  color: var(--color-text);
+  max-width: 760px;
+}
+
+.instrument-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .instrument-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .instrument-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.instrument-card__link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+}
+
+.instrument-card__media {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.instrument-card__media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.instrument-card__media--grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.4rem;
+  align-items: flex-start;
+}
+
+.instrument-card__media--grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.instrument-card__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  margin-bottom: 0.25rem;
+}
+
+.instrument-card__summary {
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.instrument-card__cta {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.instrument-card__link:hover .instrument-card__cta {
+  text-decoration: underline;
+}
+
+/* Instrument detail view */
+.instrument-detail {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.instrument-detail__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+}
+
+.instrument-detail__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.instrument-detail__hero {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.instrument-detail__intro {
+  flex: 1;
+}
+
+.instrument-detail__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  margin-bottom: 0.5rem;
+}
+
+.instrument-detail__lede {
+  color: var(--color-text);
+  font-size: 1.1rem;
+}
+
+.instrument-detail__actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+
+
+@media (min-width: 768px) {
+  .instrument-detail__header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .instrument-detail__hero {
+    flex: 1;
+  }
+
+  .instrument-detail__intro {
+    flex: 1;
+  }
+
+  .instrument-detail__actions {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.instrument-detail__section {
+  margin-top: 2.5rem;
+}
+
+.instrument-detail__richtext p {
+  color: var(--color-text);
+}
+
+.spec-table-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .spec-table-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.spec-table.card {
+  margin-bottom: 0;
+}
+
+.spec-table h3 {
+  margin-top: 0;
+}
+
+.spec-table dl {
+  margin: 0;
+}
+
+.spec-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25rem;
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.spec-row:first-of-type {
+  border-top: none;
+}
+
+@media (min-width: 500px) {
+  .spec-row {
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+  }
+}
+
+.spec-row dt {
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.spec-row dd {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.instrument-gallery-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.instrument-gallery-item {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.instrument-gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.instrument-gallery-item figcaption {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+
+
