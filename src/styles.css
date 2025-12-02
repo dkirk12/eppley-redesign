@@ -108,6 +108,8 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 100;
+  position: sticky;
+  top: 0;
 }
 
 .logo-button {
@@ -133,8 +135,17 @@ a:hover {
 }
 
 .nav {
-  display: flex;
-  gap: 1rem;
+  display: none;
+  position: absolute;
+  top: var(--header-height);
+  right: 1rem;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
 .header .nav a {
@@ -153,6 +164,30 @@ a:hover {
 .header .nav a.active-link {
   color: var(--color-text);
   border-bottom-color: var(--color-primary);
+}
+
+.nav.nav-open {
+  display: flex;
+}
+
+.menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 0.4rem 0.65rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.menu-toggle:hover {
+  background-color: var(--color-border);
+}
+
+.menu-toggle__icon {
+  font-size: 1.1rem;
 }
 
 .footer {
@@ -244,7 +279,34 @@ a:hover {
   margin: 0.25rem auto 1rem;
   font-size: clamp(1.4rem, 2.3vw, 1.9rem);
   font-weight: 600;
-  white-space: nowrap;
+  text-align: center;
+  max-width: 26ch;
+}
+
+.menu-toggle {
+  display: inline-flex;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+  }
+
+  .nav.nav-open {
+    display: flex;
+  }
 }
 
 .home-intro p {
