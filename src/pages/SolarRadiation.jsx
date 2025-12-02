@@ -36,10 +36,6 @@ function SolarRadiation() {
 
       <section className="spectrum-section">
         <h2>The Solar Spectrum</h2>
-        <p>
-          The historic site illustrated the visible spectrum with a gradient display. The visualization below
-          recreates that reference so each waveband can be identified at a glance.
-        </p>
         <div className="spectrum-display" role="img" aria-label="Ultraviolet, visible, near infrared, and longwave infrared wavelengths">
           <div className="spectrum-bar" />
           <div className="spectrum-labels">
@@ -70,13 +66,11 @@ function SolarRadiation() {
       <section>
         <h2>Shortwave: Direct, Diffuse, and Global</h2>
         <p>
-          Direct Normal Irradiance (DNI) is captured with a pyrheliometer such as the Normal Incidence
-          Pyrheliometer (Model sNIP) mounted on a Solar Tracker or Automatic Solar Tracker (Model SMT). Diffuse
-          Horizontal Irradiance is obtained by shading a pyranometer with the Shade Disk Kit (Model SDK) or a shadow
-          band so the detector sees only the scattered component. Global Horizontal Irradiance combines the direct
-          and diffuse energy on a horizontal surface and is best measured with thermopile pyranometers like the
-          Standard Precision Pyranometer (SPP), Global Precision Pyranometer (GPP), or the Black &amp; White
-          Pyranometer (Model 8-48).
+          Direct Normal Irradiance (DNI) is captured with a pyrheliometer (Model sNIP, Model NIP) mounted on a 
+          solar tracker (Model ST-1, Model ST-3, Model SMT). Diffuse Horizontal Irradiance (DHI) is obtained by 
+          shading (Model SDK, Model SBS) a pyranometer (Model 8-48) so the detector sees only the scattered component. 
+          Global Horizontal Irradiance (GHI) combines the direct and diffuse on a horizontal surface and is best 
+          measured with thermopile pyranometers (Model SPP, Model PSP, Model GPP).
         </p>
       </section>
 
@@ -90,15 +84,23 @@ function SolarRadiation() {
       </section>
 
       <section>
-        <h2>Albedo, Bifacial, and Net Radiation</h2>
+        <h2>Albedo and Bifacial</h2>
         <p>
-          Albedo measurements compare incoming and reflected shortwave radiation with an upward- and downward-looking
-          pyranometer pair (often using compact GPP sensors). Tilting that pair captures plane-of-array irradiance
-          and rear-side flux for bifacial PV research. Net radiation sums incoming and reflected shortwave plus
-          incoming and outgoing longwave radiation; Eppley recommends two SPPs and two PIRs so each term is resolved
-          directly.
+          Albedo is the ratio of incoming shortwave divided by the reflected shortwave on a horizontal plane. 
+          The best way to measure albedo is with two distinct pyranometers – one facing upward and the other facing downward.
+          If one tilts the UP/DOWN orientation of these two instruments to match the orientation of their PV array, they are
+          able to measure the Plane of Array Irradiance (POA or Gi) and the In-Plane Rearside Irradiance (GiREAR) for Bifacial testing.
         </p>
       </section>
+
+      <section>
+        <h2>Net Radiation</h2>
+        <p>
+          Net radiation is the sum of four individual measurements: Incoming Shortwave, Reflected Shortwave, Incoming Longwave
+          and Outgoing Longwave. Eppley recommends measuring each of the four componants separately using two (2) SPPs and two (2) PIRs.
+        </p>
+      </section>
+
 
       <section>
         <h2>Sunshine Duration</h2>

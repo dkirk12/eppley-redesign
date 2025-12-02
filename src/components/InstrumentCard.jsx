@@ -42,7 +42,6 @@ function InstrumentCard({ instrument }) {
           )
         )}
         <div className="instrument-card__body">
-          <p className="instrument-card__eyebrow">Instrument</p>
           <h3>{name}</h3>
           {shortDescription && <p className="instrument-card__summary">{shortDescription}</p>}
           <span className="instrument-card__cta">View instrument &rarr;</span>

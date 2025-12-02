@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import eppleyLogo from '../assets/images/eppley-logo.png';
 
 /**
  * Header component providing the site logo and navigation links.
@@ -8,7 +9,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="/" className="logo-button" aria-label="Return to the homepage">
-        EPLAB
+        <img src={eppleyLogo} alt="The Eppley Laboratory" className="logo-image" />
       </Link>
       <nav className="nav">
         <NavLink to="/" end className={({ isActive }) => (isActive ? 'active-link' : '')}>Home</NavLink>

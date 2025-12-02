@@ -15,7 +15,7 @@ function Calibrations() {
         pyrheliometers that participate in the International Pyrheliometric Comparisons (IPC).
       </p>
       <p>
-        Pyranometers (SPP, PSP, 8-48) are compared in Eppley's integrating hemisphere per ISO 9847 Section 5.3.1 and
+        Pyranometers (SPP, PSP, 8-48) are compared in Eppley's integrating hemisphere per ISO 9847 and
         Technical Procedure TP01. Results are traceable to the WRR through comparisons with the same AHF cavity
         standards referenced above.
       </p>
@@ -30,8 +30,7 @@ function Calibrations() {
       </p>
       <p>Eppley recommends a minimum calibration cycle of five years and encourages annual calibrations for the highest accuracy.</p>
       <p>
-        For scheduling or additional details, please contact The Eppley Laboratory at +1.401.847.1020 or via the
-        contact form on the main site.
+        For scheduling or additional details, please contact The Eppley Laboratory at <strong>info@eppleylab.com</strong> or <strong>+1.401.847.1020</strong>
       </p>
     </article>
   );

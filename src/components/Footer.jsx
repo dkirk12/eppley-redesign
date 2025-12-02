@@ -6,7 +6,9 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="footer">
-      <p>The Eppley Laboratory Inc. U.S.A. — +1.401.847.1020</p>
+      <p>
+        The Eppley Laboratory Inc. U.S.A. | +1.401.847.1020 | info@eppleylab.com
+      </p>
       <p>Site by Drew Kirk</p>
     </footer>
   );
